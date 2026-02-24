@@ -7,6 +7,7 @@ identifier : variable_name
     name should not start with num
     can start _
     no space in between
+    no special character except _
 */
 #include <stdio.h>
 int main() {
