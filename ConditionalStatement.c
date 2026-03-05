@@ -21,23 +21,36 @@ int main() {
    
    */
 
-   int no1=13;
-   if(no1%2==0){
-    printf("even no");
-   }else{
-    printf("odd no");
-   }
+//    int no1=13;
+//    if(no1%2==0){
+//     printf("even no");
+//    }else{
+//     printf("odd no");
+//    }
 
    int marks=49;
 
-   if(marks>=33){
-    printf("\nPass\n");
-   }else{
-    printf("Fail\n");
-   }
+//    if(marks>=33){
+//     printf("\nPass\n");
+//    }else{
+//     printf("Fail\n");
+//    }
+
+//ternery operator :
+char result=(marks>=33)?'P':'F'; 
+printf("\nresult is %c\n",result);//P
 
 
+int no1=85,no2=410;
+// if(no1>no2){
+//     printf("\nmax no is %d\n",no1);
+// }else
+// {
+//     printf("\nmax no is %d\n",no2);
+// }
 
+int max=(no1>no2)?no1:no2;
+printf("max no  is %d",max);
 
     return 0;
 }
